@@ -3,4 +3,5 @@
 ## version
 
 node: 9.6.5  
-express-generator: 4.15.0
+express-generator: 4.15.0  
+python: 2.7.14

@@ -1,5 +1,5 @@
 # alpine:3.6
-FROM node:9.5.0-alpine
+FROM node:8.11.1-alpine
 
 # set env
 ENV NODE_ENV=development
@@ -9,7 +9,7 @@ RUN apk add --update --no-cache tzdata tini && \
     cp /usr/share/zoneinfo/Asia/Tokyo /etc/localtime && \
     echo "Asia/Tokyo" > /etc/timezone && \
     apk del tzdata && \
-    npm install -g express-generator@4.15.0
+    npm install -g express-generator@4.16.0
 
 # Tini is now available at /sbin/tini
 ENTRYPOINT [ "/sbin/tini", "--" ]

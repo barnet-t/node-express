@@ -6,5 +6,5 @@ https://github.com/nodejs/docker-node/blob/master/docs/BestPractices.md
 
 ## version
 
-node: 9.6.5  
-express-generator: 4.15.0  
+node: 8.11.1  
+express-generator: 4.16.0  

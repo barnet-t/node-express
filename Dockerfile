@@ -1,5 +1,5 @@
-# alpine:3.6
-FROM node:8.11.1-alpine
+# alpine:3.7
+FROM node:10.5.0-alpine
 
 # set env
 ENV NODE_ENV=development
